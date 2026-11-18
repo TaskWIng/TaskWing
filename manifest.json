@@ -2,13 +2,6 @@
 	"manifest_version": 3,
 	"name": "Basic extension",
 	"version": "1.0",
-	"description": "Description for my extension",
-	"permissions": ["storage", "activeTab"],
-	"content_scripts": [
-		{
-			"js": ["content.js"],
-			"matches": ["<all_urls>"]
-		}
-	],
+	"description": "Description for our extension",
 	"action": { "default_popup": "popup.html" }
 }
